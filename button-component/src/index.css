@@ -69,7 +69,10 @@ body {
 
 .btn:active {
   cursor: pointer;
+}
 
+.btn:hover {
+  cursor: pointer;
 }
 
 .disableBtn {
