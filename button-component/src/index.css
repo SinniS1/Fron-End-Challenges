@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+
+.Navbar,
+.Footer {
+  border-bottom: 2px solid black;
+  height: 3rem;
+  display: grid;
+  place-content: center;
+  border-radius: 0 0 8px 8px;
+}
+
+
+.Footer {
+  border-bottom: 0;
+  border-top: 2px solid black;
+  border-radius: 8px 8px 0 0;
+}
+
+
+.Sidebar {
+  height: calc(100vh - 6rem);
+  display: flex;
+  flex-direction: row;
+
+}
+
+
+.Button {
+  width: 60%;
+  border-right: 2px solid black;
+}
+
+
+.rightSidebar {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+  padding-left: 20px;
+}
+
+
+.Button {
+  display: grid;
+  place-content: center;
+}
+
+.btn {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.btn:active {
+  cursor: pointer;
+
+}
+
+.disableBtn {
+  background-color: blue;
+}
+
+.Sidebar label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
