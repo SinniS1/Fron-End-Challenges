@@ -1,0 +1,41 @@
+/* .Container{
+
+} */
+.card-swiper-buttons {
+    margin-top: 8vmin;
+    display: flex;
+    justify-content: space-around;
+    padding: 0vmin 4vmin;
+}
+
+.card-swiper-buttons>button {
+    font-size: 2.5vmin;
+    border: 0.4vmin solid rgb(200, 200, 200);
+    border-radius: 100%;
+    background-color: transparent;
+    height: 7vmin;
+    width: 7vmin;
+    cursor: pointer;
+    transition: all 50ms ease-in-out;
+}
+
+.card-swiper-buttons>#hate-button {
+    border-color: red;
+    color: red;
+}
+
+.card-swiper-buttons>#love-button {
+    color: rgb(33, 150, 243);
+    border-color: rgb(33, 150, 243);
+}
+
+#hate-button:active {
+    font-size: 2.4vmin;
+    height: 6.8vmin;
+    width: 6.8vmin;
+}
+#love-button:active {
+    font-size: 2.4vmin;
+    height: 6.8vmin;
+    width: 6.8vmin;
+}
